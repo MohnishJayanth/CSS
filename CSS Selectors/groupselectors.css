@@ -1,0 +1,13 @@
+h1,h2
+{
+    text-align: center;
+    color: red;
+    border: solid pink;
+}
+
+h3,p{
+    color: blue;
+    border: 4mm ridge yellowgreen;
+    background-color: lightblue;
+    text-align: left;
+}

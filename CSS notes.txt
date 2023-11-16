@@ -1,0 +1,53 @@
+types of CSS
+
+Inline CSS
+
+<h1 style="background-color=red"> Hi</h1>
+<p>Good Morming</p>
+
+inline css
+cannot reuse to the next element 
+<h1 style="background-color=red"> Hi</h1>
+<p>Good Morming</p>
+
+
+internal css
+cannot reuse to another page
+<style> h3,p{
+background-color:red;}
+</style>
+
+external css
+can use to multiple pages
+<link rel="stylesheet" href=""/>
+
+
+CSS features
+
+reusability
+reloading faster
+modularity
+better readabitlity
+portability
+global change feature
+
+CSS Selectors
+group of style for reusability
+1)Tag/Element Selector
+2)Group of Tag        bc font, font family, align
+3)Class Selector   .
+4)id selector   #
+5)Group tag, class and id selector   
+6)Attribute selector     []
+7)Universal Selector    *
+
+thumb rules of CSS
+Nearest Style has highest priority
+
+types of borders
+solid
+dashed
+1rem solid
+thick double
+
+

@@ -1,0 +1,26 @@
+.mohnish{
+    color: red;
+    text-align: center;
+    border: thick double blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jayanth{
+    color: blue;
+    text-align: right;
+    border: solid red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.naveen
+{
+    color: yellow;
+    text-align: left;
+    border: 4mm ridge orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    color: orange;
+    text-align: center;
+    border: dashed red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
