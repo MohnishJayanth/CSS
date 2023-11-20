@@ -36,14 +36,40 @@ group of style for reusability
 1)Tag/Element Selector
 2)Group of Tag        bc font, font family, align
 3)Class Selector   .
-4)id selector   #
+4)id selector   #  rarely used cause if conflict with JS, used with tags that are not repeted more than once
 5)Group tag, class and id selector   
-6)Attribute selector     []
-7)Universal Selector    *
+6)Attribute selector     [] can be used with 2 attributes in a element 
+7)Universal Selector    * used for entire page
 
 thumb rules of CSS
+
+Rule 1
 Nearest Style has highest priority
 
+rule 2
+css selector specificity
+inline > id > class > tag(internal/link(External))
+
+
+<style>
+h1{
+}
+0.1
+<link/>
+1
+</style>
+<h1 class=".mohnish" style="background-color:yellow" id=".jayanth">Mohnish</h1>
+          10                     1000                       100
+
+<style>
+<link/>
+0.1
+h1{
+}
+1
+</style>
+<h1 class=".mohnish" style="background-color:yellow" id=".jayanth">Mohnish</h1>
+          10                     1000                       100
 types of borders
 solid
 dashed

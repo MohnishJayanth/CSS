@@ -1,0 +1,19 @@
+a{
+    background-color: yellow;
+}
+
+a[target="_blank"]
+{
+background-color: red;
+}
+input{
+    background-color: purple;
+}
+
+input[placeholder]
+{
+    background-color: red;
+}
+*{
+    font-family: cursive;
+}
